@@ -1,0 +1,79 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body{
+    background: linear-gradient(93deg,#33B2D3 20.76%, #2D44D2 78.80%);
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+
+}
+
+nav li{
+    margin: 0 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+nav span{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.btn{
+    background-color: rgb(231, 141, 22);
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+#texto-principal{
+    width: 50%;
+}
+
+
+main{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    margin-top: 40px;
+}
+
+main span{
+    font-size: 50px;
+    display: block;
+}
+
+#contacto form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+#contacto input, select,textarea{
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
